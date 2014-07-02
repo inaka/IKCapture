@@ -68,9 +68,10 @@ This method stops the `AVCaptureSession`
 ~~~
 -(void)setOverlay:(UIView*)overlay;
 ~~~
-This lets you know if the current camera owns a flash.
+Allows you to set a UIView as an overlay to the camera viewfinder. 
 ~~~
 -(BOOL)currentCameraHasFlash;
 ~~~
+This lets you know if the current camera owns a flash.
 
 
