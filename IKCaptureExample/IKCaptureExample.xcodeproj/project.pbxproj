@@ -22,6 +22,7 @@
 		41B55C9E19644FC50019067D /* IKMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B55C9C19644FC50019067D /* IKMainViewController.m */; };
 		41B55C9F19644FC50019067D /* IKMainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 41B55C9D19644FC50019067D /* IKMainViewController.xib */; };
 		41B55CA319644FE40019067D /* IKCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B55CA219644FE40019067D /* IKCapture.m */; };
+		41B55CA7196452110019067D /* IKCameraOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 41B55CA6196452110019067D /* IKCameraOverlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,8 @@
 		41B55C9D19644FC50019067D /* IKMainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IKMainViewController.xib; sourceTree = "<group>"; };
 		41B55CA119644FE40019067D /* IKCapture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCapture.h; sourceTree = "<group>"; };
 		41B55CA219644FE40019067D /* IKCapture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKCapture.m; sourceTree = "<group>"; };
+		41B55CA5196452110019067D /* IKCameraOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IKCameraOverlay.h; sourceTree = "<group>"; };
+		41B55CA6196452110019067D /* IKCameraOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IKCameraOverlay.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +126,8 @@
 				41B55C9B19644FC50019067D /* IKMainViewController.h */,
 				41B55C9C19644FC50019067D /* IKMainViewController.m */,
 				41B55C9D19644FC50019067D /* IKMainViewController.xib */,
+				41B55CA5196452110019067D /* IKCameraOverlay.h */,
+				41B55CA6196452110019067D /* IKCameraOverlay.m */,
 			);
 			path = IKCaptureExample;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				41B55C7D19644F5E0019067D /* IKAppDelegate.m in Sources */,
 				41B55CA319644FE40019067D /* IKCapture.m in Sources */,
 				41B55C7919644F5E0019067D /* main.m in Sources */,
+				41B55CA7196452110019067D /* IKCameraOverlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
